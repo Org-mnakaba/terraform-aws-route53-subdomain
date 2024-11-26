@@ -36,7 +36,7 @@ resource "aws_s3_bucket" "redirect" {
 }
 
 resource "aws_s3_bucket_website_configuration" "redirect" {
-  bucket = "${var.waypoint_application}.${var.domain}"
+  bucket = "${var.waypoint_application}.${var.domain}-demo123"
 
   redirect_all_requests_to {
     host_name = "${var.destination_org}.github.io/${var.waypoint_application}"
