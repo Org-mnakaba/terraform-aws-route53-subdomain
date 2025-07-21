@@ -1,4 +1,4 @@
-# AWS Route 53 subdomain module 
+# AWS Route 53 subdomain module
 
 This module creates an AWS S3 bucket and Route 53 A record to redirect traffic from a subdomain URL to a GitHub Pages URL.
 
