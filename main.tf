@@ -32,7 +32,7 @@ resource "github_repository_file" "subdomain_url" {
 }
 
 resource "aws_s3_bucket" "redirect" {
-  bucket = "${var.waypoint_application}.${var.domain}-demo123"
+  bucket = "${var.waypoint_application}.${var.domain}-demo12345"
 }
 
 resource "aws_s3_bucket_website_configuration" "redirect" {
